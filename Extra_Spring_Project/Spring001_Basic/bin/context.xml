@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    <!--  HelloWorld hello = new HelloWorld(); -->
+	<!-- 
+	<bean id="helloObj" class="com.jpm.spring.hello.HelloWorld">
+	</bean>
+	<bean id="helloObj1" class="com.jpm.spring.hello.SpringHelloWorld"></bean>
+ -->
+ 	<bean id="conObj" 
+ 	class="com.jpm.spring.currency.CurrencyConverterImpl">
+ 		<property name="exchangeService" 
+ 		ref="exchangeService"></property><!-- setter injection -->
+ 	</bean>
+ 	
+ 	<bean id="exchangeService" 
+ 	class="com.jpm.spring.currency.ExchangeServiceImpl">
+ 	<!-- constructor injection -->
+ 	<constructor-arg><value>70.33</value></constructor-arg>
+ 	</bean>
+ </beans>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

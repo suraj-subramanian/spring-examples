@@ -1,0 +1,6 @@
+2019-04-02 16:13:10,506 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e2144e4: startup date [Tue Apr 02 16:13:10 IST 2019]; root of context hierarchy
+2019-04-02 16:13:10,575 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [currencyconverter.xml]
+2019-04-02 16:13:24,431 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e2144e4: startup date [Tue Apr 02 16:13:24 IST 2019]; root of context hierarchy
+2019-04-02 16:13:24,515 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [context.xml]
+2019-04-02 16:13:47,635 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e2144e4: startup date [Tue Apr 02 16:13:47 IST 2019]; root of context hierarchy
+2019-04-02 16:13:47,736 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [context.xml]

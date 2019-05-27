@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+   	<context:annotation-config></context:annotation-config>
+ 	<bean id="address" class="com.jpm.spring.emp.Address">
+ 		<property name="street" value="Sky Appartments "></property>
+ 		<property name="pincode" value="400708"></property>
+ 		<property name="city" value="mumbai"></property>
+ 	</bean>
+ 	
+ 	<bean id="employee1" class="com.jpm.spring.emp.Employee" 
+ 	autowire="byName" scope="prototype" > 	
+ 		<property name="empId" value="111"></property>
+ 		<property name="empName" value="Smita"></property>
+ 	</bean>
+ 	<bean id="employee2" class="com.jpm.spring.emp.Employee"
+ 	autowire="byName">
+ 		<property name="empId" value="222"></property>
+ 		<property name="empName" value="Mita"></property>
+ 	</bean>
+ </beans>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
